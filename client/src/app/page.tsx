@@ -2,15 +2,11 @@ import WalletBar from "@/components/WalletBar";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen gap-12">
-      <WalletBar />
-      <p className="mb-2 text-lg">
-        Get started by editing&nbsp;
-        <code className="p-2 bg-gray-600 rounded">pages/index.tsx</code>
-      </p>
+    <main className="flex flex-col items-center justify-center bg-gray-100 rounded-md gap-12 py-4 h-full">
+    
       <div className="flex flex-row gap-12">
         <a
-          className="p-4 rounded-md w-48 bg-black border flex flex-col items-center justify-center gap-6 group"
+          className="p-4 rounded-md w-48 bg-white border flex flex-col items-center justify-center gap-6 group"
           href="https://starknet.io/docs"
           target="_blank"
           rel="noreferrer"
@@ -28,7 +24,7 @@ export default function Home() {
           </p>
         </a>
         <a
-          className="p-4 rounded-md w-48 bg-black border flex flex-col items-center justify-center gap-6 group"
+          className="p-4 rounded-md w-48 bg-white border flex flex-col items-center justify-center gap-6 group"
           href="https://starknet-react.com/docs/getting-started"
           target="_blank"
           rel="norefferer"

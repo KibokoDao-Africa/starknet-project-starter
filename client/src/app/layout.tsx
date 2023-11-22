@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Outfit } from 'next/font/google'
 import { StarknetProvider } from '@/components/starknet-provider'
 import './globals.css'
+import AppLayout from '@/components/app-layout'
 
-const inter = Inter({ subsets: ['latin'] })
+const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,10 +17,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-		<html lang="en">
-			<body className={inter.className}>
-				<StarknetProvider>{children}</StarknetProvider>
-			</body>
-		</html>
-	);
+    <html lang='en'>
+      <body className={outfit.className}>
+        <StarknetProvider>
+          <AppLayout>{children}</AppLayout>
+        </StarknetProvider>
+      </body>
+    </html>
+  );
 }

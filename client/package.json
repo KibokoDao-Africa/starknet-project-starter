@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@radix-ui/react-slot": "^1.0.2",
     "@starknet-react/chains": "^0.1.0",
     "@starknet-react/core": "^2.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
     "get-starknet-core": "^3.2.0",
+    "lucide-react": "^0.292.0",
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
-    "starknet": "^5.19.5"
+    "starknet": "^5.19.5",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
