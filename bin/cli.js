@@ -17,7 +17,7 @@ const repoName = process.argv[2];
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/DennohKim/starknet-project-starter ${repoName}`;
 const installDependenciesCommand = `
   cd ${repoName} && 
-  cd client && npm install && 
+  cd client && npm install && cd .. &&
   cd starknet_forge && snforge test
 `;
 

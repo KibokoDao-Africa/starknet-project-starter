@@ -13,5 +13,5 @@ Happy coding!
 # Getting started: 
 
 You can run the command: 
-```npx starknet-project-starterkit@1.0.0 project-name```
+```npx starknet-starterkit@1.0.0 project-name```
 
