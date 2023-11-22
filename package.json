@@ -1,8 +1,13 @@
 {
-  "name": "starknet-template-starter",
+  "name": "starknet-project-starterkit",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DennohKim/starknet-project-starter"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
